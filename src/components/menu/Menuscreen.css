@@ -1,0 +1,130 @@
+.menumain{
+    background-color: #FAF7F2;  
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+    /* background-color: yellow; */
+    height: 420px;
+    width: 1000px;
+    
+}
+.menutxt{
+    /* background-color: red; */
+    height: 25%;
+    width: 100%;
+    /* margin-top: -16px; */
+}
+.menutxttop{
+    /* background-color: olive; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menutxtbott{
+    /* background-color: navy; */
+    height: 60%;
+    width: 100%;
+    margin-top: -50px;
+    
+
+   
+}
+.menuog{
+     /* background-color: aqua;  */
+    height: 70%;
+    width: 100%;
+     margin-top: 30px; 
+    display: flex;
+}
+.arrow{
+    height: 100%;
+    width: 7%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food{
+    background-color: #fff; 
+    height: 100%;
+    width: 25%;
+    border: 1px solid #FAF7F2
+    
+}
+.foodtxt{
+    /* background-color: yellow; */
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foodimg{
+    /* background-color: blueviolet; */
+    height: 60%;
+}
+.our{
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    color: orange;
+
+}
+.eat{
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+.eatdiv{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    /* height: 100%; */
+}
+.leftarr{
+     background-color: rgba(0, 0, 0, 0.896); 
+    height: 15%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;;
+}
+.larr{
+    background-color: black;
+    height: 30%;
+    width: 25%;
+}
+.footxtog{
+    /* background-color: aqua;   */
+    height: 70%;
+    width: 90%;
+    margin-top: 60px;
+}
+.chic1{
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 4px;
+    width: 200px;
+}
+.chic2{
+    font-size: 12px;
+    width: 200px;
+}
+.white{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bro{
+    height: 80%;
+    width: 80%;
+}

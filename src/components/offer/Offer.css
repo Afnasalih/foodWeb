@@ -1,0 +1,113 @@
+.offerdiv{
+    /* background-color: aquamarine; */
+    height: 600px;
+    width: 100%;
+    display: flex;
+
+}
+.offerleft{
+    /* background-color: blue; */
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerright{
+    background-color: #faf7f2; 
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    
+}
+.offercont{
+    /* background-color: brown;   */
+    height: 350px;
+    width: 520px;
+    margin-left: 200px;
+}
+.frstxt{
+    /* background-color: yellow; */
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+    color: orange;
+    
+
+}
+.secndtxt{
+    /* background-color: aqua; */
+    height: 110px;
+    font-size: 37px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.thirdtxt{
+    /* background-color: red; */
+    height: 120px;
+    width: 520px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #A1A0A0;
+    margin-top: -10px;
+}
+.last{
+    /* background-color: forestgreen; */
+    height: 15%;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.orderbtn{
+    height: 60%;
+    width: 22%;
+    border: none;
+    border-radius: 5px;
+    background-color: #36A850;
+    color: white;
+}
+.price{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 28%;
+    font-size: 33px;
+    font-weight: bold;
+    /* margin-top: 0px; */
+    margin-left: 30px;
+    color: orange ;
+    display: flex;
+    align-items: center;
+}
+.oprice{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    margin-top: 29px;
+}
+.grill{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    margin-left: -25%;
+   
+}
+.imggrill{
+    height: 100%;
+    width: 110%;
+}
+@media only screen and (max-width: 1200px) {
+    .offerright{
+        display: none;
+    }
+    .grill{
+        display: none;
+    }
+}

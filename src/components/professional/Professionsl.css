@@ -1,0 +1,128 @@
+.professiondiv{
+    /* background-color: aqua; */
+    height: 450px;
+    width: 100%;
+}
+.proup{
+    background-color: #FAF7F2;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.procon{
+    background-color: white;
+    height: 230px;
+    width: 1200px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+.proconleft{
+    background-color: white;
+    height: 100px;
+    width: 400px;
+}
+
+.iphone{
+    height: 300px;
+    width: 300px;
+    margin-top: -72px;
+    margin-left: 30px;
+}
+.proconright{
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 600px;
+}
+.righttxt1{
+    /* background-color: blue; */
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.righttxt2{
+    /* background-color: darkblue; */
+    height: 100px;
+    width: 100%;
+    margin-top: -20px;
+}
+.righttxt3{
+    /* background-color: yellow; */
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+.download{
+    margin-top: 0px;
+     height: 40px;
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+    color: orange;
+}
+.bestapp{
+    height: 110px;
+    font-size: 37px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    width: 600px;
+
+}
+.apple{
+    /* background-color: tan; */
+    height: 90px;
+    width: 180px;
+    margin-left: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.applebtn{
+    height: 50px;
+    width: 180px;
+    display: flex;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    background-color: white;
+    /* box-shadow: black; */
+}
+.appleicon{
+    height: 50%;
+    width: 20%;
+    margin-top: 10px;
+}
+.appstore{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    width: 100px;
+}
+.prodown{
+    height: 600px;
+    width: 100%;
+    background-color: yellow;
+}
+.writing{
+    height: 20%;
+    width: 100%;
+    background-color: green;
+}
+@media only screen and (max-width: 1200px) {
+    .proconleft{
+        display: none;
+    }
+    .procon{
+        background-color: white;
+        height: 230px;
+        width: 550px;
+        margin-top: 40px;
+        border-radius: 10px;
+        display: flex;
+    }
+}

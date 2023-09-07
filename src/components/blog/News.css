@@ -1,0 +1,218 @@
+.newsmain{
+    background-color: #faf7f2;
+    height: auto;
+    width: 100%;
+}
+.newstxt{
+    /* background-color: violet; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.newstxtog{
+    /* background-color: saddlebrown; */
+    height: 100px;
+    width: 750px;
+    
+    /* margin-left: 250px; */
+}
+.ogdup{
+    /* background-color: antiquewhite; */
+    height: 100px;
+    width: 750px;
+    margin-top: 50px;
+}
+.newsup{
+    /* background-color: palegoldenrod; */
+    height: 40px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+}
+.newsdown{
+    /* background-color: y; */
+    height: 60px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
+.newstxt1{
+    margin-top: 0px;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+    color: orange;
+}
+.newstxt2{
+    margin-top: 10px;
+    /* height: 110px; */
+    font-size: 37px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    /* margin-top: -20px; */
+    width: 600px;
+}
+.blogcont{
+    /* background-color: yellow; */
+    height: 370px;
+    display: flex;
+   /* margin-top: 0px; */
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 100px;
+}
+.blogog{
+    /* background-color: aqua; */
+    height: 400px;
+    width: 1160px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    
+
+}
+.blogleft{
+    /* background-color: darkblue; */
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.blogdate{
+    height: 40px;
+    background-color: white;
+    width: 100%;
+    color: orange;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blogwrite{
+    height: 60px;
+    background-color: white;
+    font-size: 21px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogimg{
+    height: 200px;
+    /* background-color: saddlebrown; */
+}
+.blogread{
+    height: 50px;
+    background-color: white;
+}
+.blogstyle{
+    height: 200px;
+    width: 320px;
+}
+.leftdup{
+    /* background-color: darkblue; */
+    height: 400px;
+    width: 320px;
+    /* margin-top: 20px; */
+    
+
+
+}
+.more{
+    /* background-color: olive; */
+    height: 50px;
+    width: 160px;
+    margin-left: 20px;
+    display: flex;
+    /* margin-top: 20px; */
+}
+.greenarrw{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+}
+.greentxt{
+    font-size: 15px;
+    color: yellowgreen;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+.blogbtn{
+    /* background-color: darkcyan; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.seeall{
+    background-color: #36A850;
+    height: 100%;
+    width: 170px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    
+}
+.brands{
+    background-color: #faf7f2;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.brandsog{
+    background-color: white;
+    height: 130px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+
+}
+.brand1{
+    background-color: white;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #faf7f2;
+}
+/* .brand2{
+    background-color: saddlebrown;
+}
+.brand3{
+    background-color: salmon;
+}
+.brand4{
+    background-color: sandybrown
+}
+.brand5{
+    background-color: seagreen;
+}
+.brand6{
+    background-color: sienna;
+} */
+.brandstyle{
+    height: 100px;
+    width: 200px;
+}
+@media only screen and (max-width: 1200px) {
+    .blogog{
+        grid-template-columns: auto;
+    }
+    .blogcont{
+        height: 1200px;
+    }
+    .brandsog{
+        grid-template-columns: auto auto ;
+
+    }
+}

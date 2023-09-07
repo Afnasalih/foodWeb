@@ -1,0 +1,190 @@
+.chefmain{
+    /* background-color: red; */
+    height: auto;
+    width: 100%;
+}
+.chefwriting{
+    background-color: #FAF7F2;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.chefcontent{
+    /* background-color: darkblue; */
+    height: 100px;
+    width: 70%;
+    display: flex;
+}
+.contentleft{
+    /* background-color: saddlebrown; */
+    height: 100px;
+    width: 50%;
+}
+.contentright{
+    /* background-color: aqua; */
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.cheftxt{
+    /* background-color: salmon; */
+    height: 30px;
+    width: 100%;
+}
+.cheftxt2{
+    /* background-color: seagreen; */
+    height: 70px;
+    width: 100%;
+}
+.ctstyle{
+    margin-top: 0px;
+    /* height: 40px; */
+   font-size: 25px;
+   font-family: 'Brush Script MT', cursive;
+   color: orange;
+}
+.ctstyle2{
+    height: 110px;
+    font-size: 37px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    width: 600px;
+
+}
+.chefbtn{
+    height: 40px;
+    width: 200px;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: right;
+}
+.view{
+    height: 40px;
+    width: 155px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+}
+.review{
+    background-color: #FAF7F2;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ogreview{
+    /* background-color: sienna; */
+    height: 500px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+
+}
+.leftreview{
+    /* background-color: aqua; */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middlerev{
+    /* background-color: darkblue; */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightrev{
+    /* background-color: palegreen; */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainrev{
+    background-color: white;
+    height: 460px;
+    width: 95%;
+    border-radius: 10px;
+}
+.mainrevup{
+    /* background-color: sandybrown; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainrevdown{
+    /* background-color: skyblue; */
+    height: 110px;
+}
+.chefname{
+    /* background-color: seagreen; */
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chefexp{
+    /* background-color: slateblue; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chefsocial{
+    /* background-color: black; */
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+.cnstyle{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.cnstyle2{
+    margin-top: 15px;
+    font-size: 15px;
+    color: orange;
+}
+.ogsocial{
+    /* background-color: magenta; */
+    height: 45px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialbtn{
+    height: 35px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+
+}
+.faicon{
+    height: 20px;
+    width: 20px;
+    
+}
+.rasaimg{
+    height: 300px;
+    width: 300px;
+}
+@media only screen and (max-width: 1200px) {
+
+    .ogreview{
+        grid-template-columns: auto ;
+    }
+    .review{
+        height: 1500px;
+    }
+}

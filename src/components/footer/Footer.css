@@ -1,0 +1,214 @@
+.footermain{
+    background-color: #faf7f2;
+    height: auto;
+    width: 100%;
+}
+.footerhead{
+    /* background-color: blue; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foheading{
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 75%;
+    display: flex;
+}
+.subscribediv{
+    /* background-color: red; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.subtyping{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subnews{
+    font-size: 35px;
+    font-weight: bold;
+}
+.mailbox{
+    height: 40px;
+    width: 60%;
+    border: 1px solid #7D7A7A;
+    border-radius: 5px;
+    background-color: #ADABAB;
+}
+.nowbtn{
+    height: 40px;
+    width: 25%;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: orange;
+    margin-left: -10px;
+}
+.aboutcont{
+    /* background-color: bisque; */
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutog{
+    /* background-color: yellowgreen; */
+    height: 400px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 35% 30% 15% 20%;
+
+}
+.aboutus{
+    /* background-color: magenta; */
+    
+}
+.aboutd{
+    /* background-color: silver; */
+    height: 300px;
+    margin-top: 50px;
+}
+.frubaz{
+    /* background-color: darkblue; */
+    height: 200px;
+}
+.a1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.a2{
+    font-size: 15px;
+    color: #7D7A7A;
+    /* background-color: yellow; */
+    width: 370px;
+}
+.time{
+    /* background-color: slateblue; */
+    height: 100px;
+    display: flex;
+}
+.time24{
+    /* background-color: darkgoldenrod; */
+    height: 80px;
+    width: 90px;
+
+}
+.timestyle{
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.openhour{
+    height: 80px;
+    /* background-color: darkgreen; */
+    width: 300px;
+    margin-left: 20px;
+}
+.o1{
+    margin-top: 0px;
+    font-weight: bold;
+}
+.o2{
+    font-size: 14px;
+    color: #7D7A7A;
+}
+.o3{
+    font-size: 14px;
+    margin-top: -10px;
+    color: #7D7A7A
+}
+.contact{
+    /* background-color: saddlebrown; */
+}
+.c1{
+    font-size: 23px;
+    font-weight: bold;
+}
+.dummy3{
+    display: flex;
+}
+.c2{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.c3{
+    font-size: 14px;
+    color: #7D7A7A;
+}
+.c4{
+    font-size: 14px;
+    font-weight: bold;
+}
+.links{
+    /* background-color: salmon; */
+}
+.recents{
+    /* background-color: seagreen; */
+}
+.lastdiv{
+    /* background-color: red; */
+    height: auto;
+    display: flex;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.logo2{
+    /* background-color: sienna; */
+    height: 100%;
+    width: 50%;
+}
+.lstsocial{
+    /* background-color: slateblue; */
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.logostyle{
+    height: 90px;
+    width: 180;
+}
+.lstface{
+    height: 20px;
+    width: 20px;
+
+}
+.footface{
+    height: 40px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.space{
+    height: auto;
+    width: 200px;
+    /* background-color: mediumorchid; */
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1200px) {
+    .aboutog{
+        grid-template-columns: auto;
+    }
+    .aboutcont{
+        margin-top: -1000px;
+        height: 2500px;
+    }
+    .footermain{
+        height: 1700px;
+    }
+
+}
